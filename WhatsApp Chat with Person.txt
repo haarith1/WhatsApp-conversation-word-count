@@ -1,0 +1,12 @@
+13/08/2021, 16:30 - person1: Hello
+13/08/2021, 16:41 - person1: How are you?
+13/08/2021, 17:49 - person1: I am good myself.
+13/08/2021, 17:50 - person1: ?
+13/08/2021, 17:50 - person1: ?
+13/08/2021, 17:50 - person1: ?
+13/08/2021, 18:12 - person1: ?
+13/08/2021, 18:12 - person1: ?
+13/08/2021, 18:26 - person2: Good thanks.
+13/08/2021, 18:26 - person2: Good night.
+13/08/2021, 18:26 - person1: Okay.
+13/08/2021, 18:27 - person2: Goodbye.
