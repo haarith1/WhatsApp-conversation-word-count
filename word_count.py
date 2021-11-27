@@ -9,13 +9,6 @@ person2="person2:"
 
 for line in mssgs:
 
-    #combined word count for both people
-    for word in line.split(":")[-1].strip().split():
-        if word not in count_dict:
-            count_dict[word]=1
-        else:
-           count_dict[word]=count_dict[word]+1
-
     if len(line.split(person1))==2: # won't work where there are new lines within a message
         
         for word in line.split(person1)[1].strip().split():
@@ -32,6 +25,9 @@ for line in mssgs:
             else:
                count_dict_person2[word]=count_dict_person2[word]+1
 
+#combined word count for both
+count_dict={**count_dict_person1,**count_dict_person2}            
+            
 print("done, now saving")
 results_combined=open("results_combined.txt","w",encoding='utf-8')
 results_person1=open("results_person1.txt","w",encoding='utf-8')
